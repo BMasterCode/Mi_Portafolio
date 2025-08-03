@@ -1,4 +1,63 @@
-img{
+
+html, body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+} 
+
+header{
+    background-color: #00487C;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+main{
+    padding: 20px;
+}
+
+section{
+    margin-bottom: 20px;
+}
+
+section > h2{
+    color: #00487C;
+}
+
+section > p{
+    line-height: 1.6; /* Mejora la legibilidad del texto8 */
+}
+.sobre_mi{
+    text-align: center;
+}
+.sobre_mi > img{
+    display: block;
+    text-align: center;
+    border-radius: 50%;
     width: 300px;
     height: 300px;
+    margin : 0 auto;
+}
+section > ul{
+    padding: 0;
+}
+section > ul > li{
+    list-style: none;
+    padding: 5px 0;
+}
+section > ul > li > img{
+    width: 20px;
+    height: 20px; 
+    vertical-align: middle; /* Alinea la imagen con el texto */
+    margin-right: 10px; /* Espacio entre la imagen y el texto */
+
+}
+footer{
+    text-align: center;
+    padding: 10px;
+    background-color: #00487C;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    font-size: 20px;
 }
